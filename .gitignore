@@ -10,6 +10,7 @@
 !/.gitignore
 !/.gitlab-ci.yml
 !/README.md
+/*html/wp-content/themes/Divi/*
 
 # Apple/Mac
 ._*
