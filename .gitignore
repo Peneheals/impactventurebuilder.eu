@@ -1,0 +1,212 @@
+# Ignore everything                                                                                                               
+/*
+/*/
+# Except
+!/html
+!/html/*
+!/public_html
+!/public_html/*
+!/.editorconfig
+!/.gitignore
+!/.gitlab-ci.yml
+!/README.md
+
+# Apple/Mac
+._*
+*.DS_Store
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.apdisk
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.localized
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+ehthumbs.db
+Network Trash Folder
+Temporary Items
+[Tt]humbs.db
+
+# CMake
+cmake-build-*/
+
+# KDE
+.directory
+.directory.lock.*.test
+
+# KDevelop
+.kdev4/*
+*.kdev4
+cifs*
+.kdev*
+
+# KATE
+# The below line restricts to add two important files to the Drupal 8 system module's
+# HtaccessTest: access_test.module~ and access_test.php~. Comment it out if you
+# are working with Drupal 8 repos/sites.
+*~
+.*.kate-swp
+.kateconfig
+.kateproject
+.kateproject.d/*
+
+# Lokalize POT and PO editor
+*.lokalize
+
+# NetBeans
+nbproject/*
+
+# Eclipse
+.settings/*
+.buildpath
+.project
+
+# VIM
+.*.swp
+
+# PhpStorm
+*___jb_old___
+**___jb_tmp___
+.idea/
+.idea/*
+.idea_modules/*
+*.iws
+.phpstorm.meta.php
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# FirePHPCore
+FirePHPCore/
+
+# Laravel
+.env
+
+# Drush
+drushrc.php
+
+# SASS/SCSS
+.sass-cache
+*.sass-cache
+*.css.map
+
+# Exuberant Ctags
+.tags*
+.ctags*
+
+# NodeJS
+node_modules/
+npm-debug.log
+tsd-debug.log
+
+# Phing.
+.phing_targets
+
+# Java
+nohup.out
+
+# Libre Office.
+.~lock.*
+
+# APC
+apc.php
+
+# phpinfo
+info.php
+
+# Google & other analytics
+google*.html
+yandex*.html
+
+# Log & database files
+*.log
+*.sql
+*.sqlite
+
+# FrontPage
+_vti_cnf/
+_vti_cnf/*
+_vti_pvt/
+_vti_pvt/*
+_vti_script/
+_vti_script/*
+_vti_txt/
+_vti_txt/*
+
+# Drupal
+# Ignore all kind of configuration files that may contain sensitive information,
+# including env-relateds, backup files etc., but do not the basic default.settings.php.
+/*html/sites/*/*settings*.php*
+!/*html/sites/default/default.settings.php
+# Ignore not necessary txt files.
+/*html/CHANGELOG.txt
+/*html/COPYRIGHT.txt
+/*html/INSTALL*.txt
+/*html/LICENSE.txt
+/*html/MAINTAINERS.txt
+/*html/README.txt
+/*html/UPGRADE.txt
+# Ignore paths that contain user-generated content.
+/*html/sites/*/files
+/*html/sites/*/private
+/*html/sites/*/tmp
+/*html/sites/*/temp
+/*html/sites/*/temporary
+/*html/sites/*/translations
+/*html/tmp/
+/*html/temp/
+/*html/temporary/
+# Ignore SimpleTest multi-site environment.
+/*html/sites/simpletest
+# Drupal developer modules
+/*html/*/modules/*/devel
+/*html/*/modules/*/diff
+/*html/*/modules/*/mail_safety
+/*html/*/modules/*/potx
+/*html/*/modules/*/reroute_email
+/*html/*/modules/*/stage_file_proxy
+
+# Wordpress
+/*html/.maintenance
+/*html/readme.*.html
+/*html/wordfence-waf.php
+/*html/wp-config.php
+/*html/wp-content/advanced-cache.php
+/*html/wp-content/aiowps_backups/*
+/*html/wp-content/backup-db/*
+/*html/wp-content/backups/*
+/*html/wp-content/blogs.dir/*
+/*html/wp-content/cache/*
+/*html/wp-content/db.php
+/*html/wp-content/et-cache/*
+/*html/wp-content/gallery/*
+/*html/wp-content/languages/*
+/*html/wp-content/object-cache.php
+/*html/wp-content/plugins/hello.php
+/*html/wp-content/plugins/w3-total-cache/*
+/*html/wp-content/plugins/widgetkit/cache/*
+/*html/wp-content/updraft/*
+/*html/wp-content/upgrade/*
+/*html/wp-content/uploads/*
+/*html/wp-content/w3tc-config/*
+/*html/wp-content/wc-logs/*
+/*html/wp-content/wflogs/*
+/*html/wp-content/wp-cache-config.php
+/*html/wp-content/wptouch-data/*
+/*html/xmlrpc.php
+
+# Nginx
+.well-known/
+/*html/.user.ini
+
+# Sitemaps
+sitemap.xml
+sitemap.xml.gz
+
